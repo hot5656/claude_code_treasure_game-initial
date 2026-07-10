@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/gaoyiping/.pyenv/versions/3.10.12/bin/graphify hook-guard search"
+          }
+        ]
+      },
+      {
+        "matcher": "Read|Glob",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/gaoyiping/.pyenv/versions/3.10.12/bin/graphify hook-guard read"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(vercel *)",
+      "Bash(npm run *)",
+      "Bash(curl *)",
+      "Bash(grep -n \"100\\\\|\\\\$100\" /Users/gaoyiping/work/claude/claude_code_treasure_game-initial/src/App.tsx)",
+      "Bash(grep -rn '\\\\$100' /Users/gaoyiping/work/claude/claude_code_treasure_game-initial/src /Users/gaoyiping/work/claude/claude_code_treasure_game-initial/server)",
+      "Bash(graphify update *)"
+    ]
+  }
+}
