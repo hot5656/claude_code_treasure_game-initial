@@ -4,6 +4,9 @@
   import path from 'path';
 
   export default defineConfig({
+    // Relative base so the build works both at a domain root (Vercel) and under
+    // a subpath like https://<owner>.github.io/<repo>/ (GitHub Pages)
+    base: './',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
